@@ -2,7 +2,7 @@
 
 Personal portfolio site for Tyler Thompson, full-stack developer. A single-page marketing site with project highlights, core tech stack, and contact links.
 
-**Live site:** Add your production URL after deploy (e.g. `https://yourdomain.com`).
+**Live site:** [https://www.tdthompson.dev](https://www.tdthompson.dev)
 
 ## Tech stack
 
@@ -60,7 +60,7 @@ Copy `env.example` to `.env.local` for local overrides:
 
 | Variable | Description |
 |----------|-------------|
-| `NEXT_PUBLIC_SITE_URL` | Canonical site URL for metadata, Open Graph, and sitemap (e.g. `https://tylerthompson.dev`) |
+| `NEXT_PUBLIC_SITE_URL` | Canonical site URL for metadata, Open Graph, and sitemap (e.g. `https://www.tdthompson.dev`) |
 
 On Vercel, set `NEXT_PUBLIC_SITE_URL` in **Project → Settings → Environment Variables** for Production (and Preview if you want correct OG URLs on preview deploys). If unset, Vercel preview builds use `VERCEL_URL`; local dev defaults to `http://localhost:3000`.
 
@@ -129,7 +129,7 @@ portfolio/
 
 1. Push the repository to GitHub.
 2. Import the repo in [Vercel](https://vercel.com/) (framework preset: **Next.js**).
-3. Set `NEXT_PUBLIC_SITE_URL` to your production domain.
+3. Set `NEXT_PUBLIC_SITE_URL` to `https://www.tdthompson.dev` (use your `www` canonical host).
 4. Deploy. Preview URLs are created automatically for pull requests.
 5. Add a custom domain under **Project → Settings → Domains** when ready.
 6. After deploy, test Open Graph previews (e.g. [opengraph.xyz](https://www.opengraph.xyz/)) and submit `/sitemap.xml` in Google Search Console.
