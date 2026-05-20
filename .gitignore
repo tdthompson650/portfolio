@@ -13,7 +13,7 @@
 # testing
 /coverage
 
-# next.js
+# next.js build output (never commit)
 /.next/
 /out/
 
@@ -23,6 +23,7 @@
 # misc
 .DS_Store
 *.pem
+LAUNCH_CHECKLIST.md
 
 # debug
 npm-debug.log*
@@ -30,8 +31,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# environment secrets (commit env.example as the template)
 .env*
+!.env.example
+!env.example
+
+# source screenshots for npm run optimize-images (commit .webp outputs only)
+public/projects/*.png
 
 # vercel
 .vercel
