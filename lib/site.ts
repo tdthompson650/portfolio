@@ -9,7 +9,7 @@ export const siteConfig = {
   name: 'Tyler Thompson',
   title: 'Tyler Thompson | Full-Stack Developer',
   description:
-    'Portfolio of Tyler Thompson — full-stack developer and recent CSUMB Computer Science graduate building accessible, responsive web applications.',
+    'Portfolio of Tyler Thompson — full-stack developer and recent CSUMB Computer Science graduate building secure, accessible, responsive web applications.',
   locale: 'en_US',
   ogImageAlt: 'Tyler Thompson — Full-Stack Developer portfolio',
   email: 'tdthompson650@gmail.com',

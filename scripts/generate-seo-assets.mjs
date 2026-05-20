@@ -26,7 +26,7 @@ const ogSvg = `
   <rect x="0" y="0" width="1200" height="8" fill="#1e40af"/>
   <text x="96" y="280" font-family="system-ui, Segoe UI, sans-serif" font-size="72" font-weight="700" fill="#0f172a">Tyler Thompson</text>
   <text x="96" y="360" font-family="system-ui, Segoe UI, sans-serif" font-size="40" font-weight="500" fill="#1e40af">Full-Stack Developer</text>
-  <text x="96" y="430" font-family="system-ui, Segoe UI, sans-serif" font-size="28" fill="#334155">Accessible, responsive web applications</text>
+  <text x="96" y="430" font-family="system-ui, Segoe UI, sans-serif" font-size="28" fill="#334155">Secure, accessible, responsive web applications</text>
 </svg>
 `;
 
